@@ -1,4 +1,11 @@
 @font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../webfonts/eb-garamond-v24-latin-regular.woff2') format('woff2')
+}
+
+@font-face {
   font-family: 'Font Awesome';
   font-style: normal;
   font-weight: normal;
