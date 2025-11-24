@@ -58,7 +58,7 @@
   <body>
     <nav class="navbar is-fixed-top is-white" aria-label="navigation">
       <div class="navbar-brand">
-        <a class="navbar-home navbar-item is-size-4" href="#home">
+        <a class="navbar-home navbar-item is-size-4" href="#einfuehrung">
           <img src="icon.svg" alt="" style="width: auto; height: 1.5rem;">
         </a>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -72,14 +72,57 @@
       <div class="navbar-menu">
         <div class="navbar-start">
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-item" href="#tickets">
-              Tickets
-            </a>
-
-            <a class="navbar-item" href="#Kontakt">
-              Kontact
-            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link is-arrowless" href="#einfuehrung">
+                Positionen
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="#einfuehrung">
+                  Einführung
+                </a>
+                <a class="navbar-item" href="#plakette">
+                  Entfestigungs-Plakette
+                </a>
+                <a class="navbar-item" href="#tag">
+                  Tag der Entfestigung
+                </a>
+                <a class="navbar-item" href="#beteiligung">
+                  Akteure
+                </a>
+              </div>
+            </div>
           </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link is-arrowless" href="#entfestival">
+              Aktivitäten
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="#entfestival">
+                Entfestival
+              </a>
+              <a class="navbar-item" href="#erstrecht">
+                Entfestigung, nun erst recht!
+              </a>
+              <a class="navbar-item" href="#diversitaet">
+                Statt Identität
+              </a>
+              <a class="navbar-item" href="#towered">
+                Yes, we towered!
+              </a>
+              <a class="navbar-item" href="#schanz">
+                Raus aus der Schanz!
+              </a>
+            </div>
+          </div>
+
+          <a class="navbar-item" href="#newsletter">
+            Newsletter
+          </a>
+
+          <a class="navbar-item" href="#kontakt">
+            Kontakt
+          </a>
         </div>
       </div>
     </nav>
@@ -88,7 +131,7 @@
 
     <div class="swiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" data-hash="home">
+        <div class="swiper-slide" data-hash="einfuehrung">
           <h2 class="title">
             Einführung
           </h2>
@@ -104,7 +147,7 @@
           </p>
         </div>
 
-        <div class="swiper-slide" data-hash="zwei">
+        <div class="swiper-slide" data-hash="plakette">
           <h2 class="title">
             Entfestigungs-Plakette
           </h2>
@@ -120,7 +163,7 @@
           </p>
         </div>
 
-        <div class="swiper-slide" data-hash="drei">
+        <div class="swiper-slide" data-hash="tag">
           <h2 class="title">
             Tag der Entfestigung
           </h2>
@@ -137,7 +180,7 @@
           </p>
         </div>
 
-        <div class="swiper-slide" data-hash="vier">
+        <div class="swiper-slide" data-hash="beteiligung">
           <h2 class="title">
             Akteure
           </h2>
@@ -156,7 +199,7 @@
 
         <!-- Ab hier kommen alle Inhalte, die unter Aktivitäten aufgelistet werden sollen -->
 
-        <div class="swiper-slide" data-hash="fünf">
+        <div class="swiper-slide" data-hash="entfestival">
           <h2 class="title">
             Entfestival
           </h2>
@@ -173,7 +216,7 @@
         </div>
 
 
-        <div class="swiper-slide" data-hash="sechs">
+        <div class="swiper-slide" data-hash="erstrecht">
           <h2 class="title">
             Entfestigung, nun erst recht!
           </h2>
@@ -190,7 +233,7 @@
         </div>
 
 
-        <div class="swiper-slide" data-hash="sieben">
+        <div class="swiper-slide" data-hash="diversitaet">
           <h2 class="title">
             Statt Identität, Stadtdiversität!
           </h2>
@@ -207,7 +250,7 @@
           </p>
         </div>
 
-        <div class="swiper-slide" data-hash="acht">
+        <div class="swiper-slide" data-hash="towered">
           <h2 class="title">
             Yes, we towered!
           </h2>
@@ -224,7 +267,7 @@
         </div>
 
 
-        <div class="swiper-slide" data-hash="neun">
+        <div class="swiper-slide" data-hash="schanz">
           <h2 class="title">
             Raus aus der Schanz!
           </h2>
@@ -243,23 +286,23 @@
 
         <!-- Hier kommt der Newsletter -->
 
-        <div class="swiper-slide" data-hash="Newsletter">
+        <div class="swiper-slide" data-hash="newsletter">
           <h2 class="title">
             Newsletter
           </h2>
           <p>
-            <a class="button" href="https://tickets.example" target="tickets">
+            <a class="button" href="https://newsletter.example" target="newsletter">
               <span class="icon">
-                <i class="fa-solid fa-ticket"></i>
+                <i class="fa-solid fa-envelope"></i>
               </span>
-              <span>Shop</span>
+              <span>Anmelden</span>
             </a>
           </p>
         </div>
 
         <!-- Hier kommt der Kontaktbereich -->
 
-        <div class="swiper-slide" data-hash="Kontakt">
+        <div class="swiper-slide" data-hash="kontakt">
           <h2 class="title">
             Kontakt
           </h2>
