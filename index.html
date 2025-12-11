@@ -20,26 +20,37 @@
         hyphens: auto;
       }
 
-      .inactive {
+      .burger {
         pointer-events: none;
+        color: hsl(65, 79%, 37%);
       }
 
       .navbar {
-        opacity: 80%;
+        opacity: 95%;
       }
 
       .swiper {
         margin-top: 3.25rem;
       }
 
-      .swiper-slide {
-        background: var(--bulma-background);
-      }
-
       h2,
       h3,
       p {
         margin: 1rem;
+      }
+
+      .swiper-slide {
+        background: var(--bulma-background);
+      }
+
+      .swiper-button-prev,
+      .swiper-button-next,
+      .swiper-pagination-bullet-active {
+        opacity: 0.7;
+      }
+
+      .swiper-pagination-bullet-active {
+        background: hsl(193, 75%, 22%);
       }
     </style>
     <script type="application/ld+json">
@@ -62,10 +73,10 @@
           <img src="logo.svg" alt="Logo Entfestigung" style="height: 1.5rem;">
         </a>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-          <span class="inactive" aria-hidden="true"></span>
-          <span class="inactive" aria-hidden="true"></span>
-          <span class="inactive" aria-hidden="true"></span>
-          <span class="inactive" aria-hidden="true"></span>
+          <span class="burger" aria-hidden="true"></span>
+          <span class="burger" aria-hidden="true"></span>
+          <span class="burger" aria-hidden="true"></span>
+          <span class="burger" aria-hidden="true"></span>
         </a>
       </div>
 
